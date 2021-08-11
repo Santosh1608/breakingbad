@@ -7,9 +7,11 @@ import Search from "./components/ui/Search";
 import Character from "./components/characters/SingleCharacter";
 import "./App.css";
 import SingleCharacter from "./components/characters/SingleCharacter";
+import { Waypoint } from "react-waypoint";
 
 const App = () => {
   const [items, setItems] = useState([]);
+  const [hasNextPage]
   const [isLoading, setIsLoading] = useState(true);
   const [query, setQuery] = useState("");
 
